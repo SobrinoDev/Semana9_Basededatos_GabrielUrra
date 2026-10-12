@@ -17,10 +17,11 @@ La ANFP administra las competencias de fútbol profesional en Chile y necesita g
 
 | Archivo / carpeta | Descripción |
 |---|---|
-| `PRY2204_EFT_S9_Script.sql` | Script completo (Fases 3 y 4), listo para ejecutar con F5 en SQL Developer conectado como `PRY2204_S9`. |
-| `GabrielUrra_Basededatos_Semana6.dmd` | Diseño del modelo (MER-E y MR) en SQL Developer Data Modeler. |
-| `GabrielUrra_Basededatos_Semana6/` | Carpeta de datos del diseño (necesaria para abrir el `.dmd`). |
-| `GabrielUrra_Basededatos_Semana6.zip` | Respaldo comprimido del diseño. |
+| `GabrielUrra_Basededatos_Semana9.sql` | Script completo (Fases 3 y 4), listo para ejecutar con F5 en SQL Developer conectado como `PRY2204_S9`. |
+| `GabrielUrra_Basededatos_Semana9.dmd` | Diseño del modelo (MER-E y MR) en SQL Developer Data Modeler. |
+| `GabrielUrra_Basededatos_Semana9/` | Carpeta de datos del diseño (necesaria para abrir el `.dmd`). |
+| `GabrielUrra_Basededatos_Semana9.zip` | Respaldo comprimido del diseño. |
+| `GabrielUrra_Basededatos_semana9.pdf` | Documento de entrega con el desarrollo de las fases y los modelos. |
 
 ## Entidades identificadas
 
