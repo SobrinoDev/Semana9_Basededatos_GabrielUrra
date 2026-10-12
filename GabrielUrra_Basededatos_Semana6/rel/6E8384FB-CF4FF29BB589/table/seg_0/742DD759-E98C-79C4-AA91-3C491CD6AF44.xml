@@ -1,0 +1,327 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="742DD759-E98C-79C4-AA91-3C491CD6AF44" name="trabajador">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>03B63944-AB25-CA86-07EE-57DFBDCBB547</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_inscripcion" id="14301804-A951-38B0-859D-B411BBA5217B">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>D4B7A530-B459-A911-D48D-57C515FEB7B3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96B0BA43-744F-8A5F-EAF5-D971DE65447A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="DD736688-EB89-A6C0-325D-DC72EB2A0851">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>87532CA0-1BE2-72E9-CD51-CE8794399EF1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7FCB70B3-3FB2-4203-5A0C-E8F6DB52D830</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_rut_nn</notNullConstraintName>
+</Column>
+<Column name="dv" id="D3177ECA-53F2-B8D0-23D3-225B4E12E704">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>52B8AC81-C84A-1900-D564-448DC00F9C67</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9DB0D3D0-55F7-60DF-18E4-F022C732EAA3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_dv_nn</notNullConstraintName>
+</Column>
+<Column name="nombres" id="4D20D216-65F7-AA9E-53BF-B6FC327A75A0">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>E38C86D7-F173-0D87-0FFC-2DD134B70182</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E608E55E-836D-94A9-EEF7-AB27E846A128</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_nombres_nn</notNullConstraintName>
+</Column>
+<Column name="apellido_paterno" id="7AA8933A-A888-8C6D-26C7-079ACDFC4CFB">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>ECEF3E4E-55DC-8EAE-8BA2-6C7B0E723DE3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>53190921-ED62-7C7D-5606-72E3397841B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_appat_nn</notNullConstraintName>
+</Column>
+<Column name="apellido_materno" id="A6F1088A-8B7F-9931-9BD4-1C1FC3C711B9">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>757814DD-813E-5357-CA62-475F3785317A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>53190921-ED62-7C7D-5606-72E3397841B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo_base" id="F48D5A9A-533D-8BA4-5364-A39B8243EC8E">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>863054BB-41A6-9F3F-9764-592EAD69803F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9DFE6930-E83E-BCEC-6432-7967540C2B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_sueldo_nn</notNullConstraintName>
+</Column>
+<Column name="fecha_nacimiento" id="0D6DE200-FA7E-A5C8-C140-DDD982B90161">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>56577C7A-ED4F-DEA2-318C-5441FB56F7B5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FE67A75B-9CAD-E723-EA28-985353305908</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_fnac_nn</notNullConstraintName>
+</Column>
+<Column name="genero" id="5F145AB7-7799-49E8-9B4F-6DB70C68DD02">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>938A50FA-73E4-FB58-D9A2-DC1347D2763A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9DB0D3D0-55F7-60DF-18E4-F022C732EAA3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_genero_nn</notNullConstraintName>
+</Column>
+<Column name="estado_civil" id="1F96928B-C32A-871D-E601-6C8F1F704DD8">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>B20F02CB-4953-36E9-0554-B2ADD1D1C338</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>83CE4098-8F38-3C40-9C33-09A33B38B577</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_ecivil_nn</notNullConstraintName>
+</Column>
+<Column name="email" id="C4ABBBE9-46E8-BDF5-789A-11590A92B000">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>F8B89090-7FEF-8B39-F5CC-01250A38E409</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1133E421-E80A-45D9-86F4-39BD43701935</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fono_movil" id="4CA55343-645E-C43A-9B9D-65ED739F5042">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>F20E0CE6-6185-9765-D7BE-105673689F1D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>83CE4098-8F38-3C40-9C33-09A33B38B577</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_fono_nn</notNullConstraintName>
+</Column>
+<Column name="direccion" id="106226B2-BDDD-6D7B-C9A2-FC989A6817D8">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>DD9B7077-8F12-D0A4-EFBC-5836F1F850CF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C450AFA2-BDD7-4D90-C32B-B71121457A97</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_direccion_nn</notNullConstraintName>
+</Column>
+<Column name="id_comuna" id="A8F5C41A-225C-6C0E-E5E5-A484BB74D950">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>E6A49E27-F76D-8A85-5108-7916677995B4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DF2CFDAE-9751-45D9-325F-4D6B0B7CCAC6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_comuna_nn</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="BB4A0FDA-A0C6-F0E8-6000-8DF39CB7CC76" referredColumn="0420F685-6FE8-B129-A4BB-F13B8F53A2E3"/>
+</associations>
+</Column>
+<Column name="id_nacion" id="C833336E-D76D-3F34-E355-761E9C425911">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>2EF87188-39AE-FE27-429A-87A1884DF519</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>79494A2A-677F-E806-5F7C-C86F55695ED2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_nacion_nn</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="95B48E03-654D-1FCC-1270-663E2407C264" referredColumn="F37B1960-6F40-F011-4AE4-96BA77167F77"/>
+</associations>
+</Column>
+<Column name="tipo_trabajador" id="21E72014-8616-431F-20D2-6708AFD8924D">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>532FAB2A-ACF9-3528-3309-3DDD26E5806E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9DB0D3D0-55F7-60DF-18E4-F022C732EAA3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>trabajador_tipo_nn</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D5A3537-4031-9665-C6F4-5F4E1E94801E" name="trabajador_pk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>5E17F61D-BCE6-A0FB-1F4C-55E9E0EDA350</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14301804-A951-38B0-859D-B411BBA5217B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D8C19A6-744E-6267-FBCE-C171D592492C" name="trabajador_rut_un">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>D1C18F21-2E71-A712-6C3A-10F5F2ADB489</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD736688-EB89-A6C0-325D-DC72EB2A0851"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED58B053-8CF0-CF5E-CAF7-54D4BE55ADD8" name="trabajador_email_un">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>4DB822FB-5CC5-D531-7AB0-900C110BF23B</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4ABBBE9-46E8-BDF5-789A-11590A92B000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6037576D-D0BD-1A9D-9710-285F454042D6" name="trabajador_comuna_fk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8F5C41A-225C-6C0E-E5E5-A484BB74D950"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFF823A4-69E5-B23B-2F47-2C8AC315E5E8" name="trabajador_nacion_fk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C833336E-D76D-3F34-E355-761E9C425911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="trabajador_dv_ck" directorySegmentName="seg_0" id="6168A5E0-D191-631C-B669-D16C899B7D90">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>7C5CAF82-CF4B-B86B-1BB7-1EA5700592A3</importedID>
+<rule><![CDATA[dv IN ('0','1','2','3','4','5','6','7','8','9','K')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="trabajador_sueldo_ck" directorySegmentName="seg_0" id="4627D624-7959-A4B8-960A-37F6BF021C08">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>C8C53E8F-BC24-0DD4-A988-6FC93BF3FA6E</importedID>
+<rule><![CDATA[sueldo_base > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="trabajador_genero_ck" directorySegmentName="seg_0" id="396BA11A-A4EC-E79D-63C9-0E972F6D4BFC">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>7628F999-5543-138D-1155-A4380D327D0D</importedID>
+<rule><![CDATA[genero IN ('M','F','O')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="trabajador_ecivil_ck" directorySegmentName="seg_0" id="F952E83A-02D8-CCFA-A5F5-91080E9DC291">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>8D76A106-8C87-66A3-F16B-FDD8055BE5BE</importedID>
+<rule><![CDATA[estado_civil IN ('Soltero','Casado','Divorciado','Viudo','Conviviente')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="trabajador_tipo_ck" directorySegmentName="seg_0" id="A86A3D0B-388C-AE4D-E8D2-CE9BFA1B5211">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>CA4C242A-91F4-EA17-ADF8-D815088E82B5</importedID>
+<rule><![CDATA[tipo_trabajador IN ('J','P')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

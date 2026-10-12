@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E330827E-107E-2A59-D0D2-CB635811B4B6" name="historial_club">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>94ED585F-F3FC-DE33-551A-DE4BB1D496B2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_inscripcion" id="9793E1E7-DBF1-6EAA-4D49-4D12F7D4D37B">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>A3A05CC8-1AA7-4643-44A1-4719125A57B8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96B0BA43-744F-8A5F-EAF5-D971DE65447A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>historial_club_jug_nn</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F676C44F-8166-0F50-45CB-630DCB8C891E" referredColumn="63404094-E8CC-2211-845D-72DCA3AF35A0"/>
+</associations>
+</Column>
+<Column name="id_club" id="66DF99C6-0C34-68D3-F6AD-CE9EDA2A03DD">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>77611CB7-22E4-98EB-8E13-01874CA5A258</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DF2CFDAE-9751-45D9-325F-4D6B0B7CCAC6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>historial_club_club_nn</notNullConstraintName>
+</Column>
+<Column name="fecha_inicio" id="7DDD8C44-75F0-F223-DD40-F7E65631F2DE">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>946D66CC-6EF3-B2F6-E6D7-6E95B6A6A0C6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FE67A75B-9CAD-E723-EA28-985353305908</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>historial_club_fini_nn</notNullConstraintName>
+</Column>
+<Column name="fecha_termino" id="C03AB775-B64F-181A-1D08-1E1ED2DFDA94">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>9CD18284-D44A-99B2-E4A0-E3423F66F3A2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FE67A75B-9CAD-E723-EA28-985353305908</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BFEE8C2-673F-1B4B-4E2B-BA315485B149" name="historial_club_pk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>E19804BB-DC68-587A-A3B9-337A036C3674</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9793E1E7-DBF1-6EAA-4D49-4D12F7D4D37B"/>
+<colUsage columnID="66DF99C6-0C34-68D3-F6AD-CE9EDA2A03DD"/>
+<colUsage columnID="7DDD8C44-75F0-F223-DD40-F7E65631F2DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E6D3D4E-A9AA-B07D-56EF-598A51C9933B" name="historial_club_jug_fk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9793E1E7-DBF1-6EAA-4D49-4D12F7D4D37B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="historial_club_fechas_ck" directorySegmentName="seg_0" id="B61BF3F1-BD03-0863-F771-C9E2A9D25131">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>0F2C3799-FCD0-3D33-FF15-901EEF3CF64B</importedID>
+<rule><![CDATA[fecha_termino IS NULL OR fecha_termino > fecha_inicio]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

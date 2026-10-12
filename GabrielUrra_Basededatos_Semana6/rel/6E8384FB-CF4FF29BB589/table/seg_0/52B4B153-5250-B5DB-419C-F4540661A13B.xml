@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52B4B153-5250-B5DB-419C-F4540661A13B" name="region">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>E853DE56-841D-4E8F-BC46-AD38B842329E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_region" id="08A79849-A2F9-E744-D403-9A9EBDACDDF3">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>5F89402D-93DE-BD7A-BBAE-5ED81499F271</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>833E07B4-3491-8958-AD00-3D5DE3F6ADF2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D29744A5-B2B9-64EE-1622-130AE850A205">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>551CB68E-EC8B-80F7-6B8E-1FE0972A8FCF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E807B79-6B15-8E1B-87AA-7C7A051CE195</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>region_nombre_nn</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB956C8F-4F6A-E43C-8EC1-E6C18B8525BB" name="region_pk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>F5E64851-15AE-01C3-1F88-F094B67B0E38</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08A79849-A2F9-E744-D403-9A9EBDACDDF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

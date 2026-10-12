@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA57162B-8516-5848-72FC-D7ABA7180E73" containerWithKeyObject="4DC8CFB4-E1CF-D59C-2D21-4072D59BA158" localFKIndex="C6A8DF7E-979C-C802-210C-7C89AFAD35C4" name="jugador_idioma_idi_fk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>B5AC9CEE-C1DF-EADC-C228-95139E81C66C</importedID>
+<referredTableLongName>idioma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EE2AF826-9B00-1338-CC89-BAD18E45BEF5</referredTableID>
+<keyObject>EBD89E46-7D66-56A2-8968-7DAF7D9A5492</keyObject>
+<referredKeyID>EBD89E46-7D66-56A2-8968-7DAF7D9A5492</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_idioma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85F65F21-ED75-BAE3-97F1-7FE0683FDAC0" name="jugador">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>009C441A-4167-E517-70D6-F16538A0A3DA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_inscripcion" id="63404094-E8CC-2211-845D-72DCA3AF35A0">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>1465E0D9-19D9-EBFC-881B-2D5867837BAB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96B0BA43-744F-8A5F-EAF5-D971DE65447A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82D12B73-17AC-E9D5-2ACE-BA0285C82BF8" referredColumn="14301804-A951-38B0-859D-B411BBA5217B"/>
+</associations>
+</Column>
+<Column name="puesto" id="022AFB36-6702-5B62-4C91-987EF78CB921">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>F93959A8-D043-C1C1-B55A-F44787AF4705</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>124D817E-CDD5-E569-D5EB-E3EC82C60CF1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>jugador_puesto_nn</notNullConstraintName>
+</Column>
+<Column name="monto_premios" id="D119D62C-70FA-BAD5-5447-F36F44DB5990">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>86722BEA-A1A5-BD80-8F0D-F465B65C8D15</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D891CFDA-3B84-F569-AD26-3C2393D5F1D5</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>jugador_premios_nn</notNullConstraintName>
+</Column>
+<Column name="id_asociacion" id="98640B21-0F51-AF60-BB33-D1594BEF17B9">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>4093B605-D44D-F01A-7031-699F3D6F539D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>79494A2A-677F-E806-5F7C-C86F55695ED2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>jugador_asociacion_nn</notNullConstraintName>
+</Column>
+<Column name="id_escuela" id="836B75AC-3469-E1A0-D054-13E631DF162D">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>31448D73-F357-F575-FA98-536257DE4A3C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7F2A45FD-B726-FC63-4925-25D1AF881C35</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="258605A7-0311-87FB-B1D7-B64A178F510E" referredColumn="BBA97C92-3E85-7BD5-CB8D-62659B7618D5"/>
+</associations>
+</Column>
+<Column name="anio_fin_amateur" id="E7676B95-4C46-28E7-F1CF-3934EC5949D2">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>1CD7ACF2-31B6-8070-F0DE-A8E509F21E94</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DF2CFDAE-9751-45D9-325F-4D6B0B7CCAC6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57B766B1-FB34-72BF-3E03-51B737E53649" name="jugador_pk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>7E5061B5-CB43-AA63-6508-80961DE35958</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63404094-E8CC-2211-845D-72DCA3AF35A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21616B7E-D3B6-DE1B-109D-BC6AAF7ED70D" name="jugador_escuela_fk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="836B75AC-3469-E1A0-D054-13E631DF162D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="153716E1-C498-2022-0823-1ACDE86F1F8E" name="jugador_trabajador_fk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63404094-E8CC-2211-845D-72DCA3AF35A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="jugador_puesto_ck" directorySegmentName="seg_0" id="58620FEE-C9BA-2815-2C65-89483683F0A8">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>8D7BEA63-D1FC-58D3-3B9D-0FFBDDF391AE</importedID>
+<rule><![CDATA[puesto IN ('Arquero','Defensa','Mediocampista','Delantero')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="jugador_premios_ck" directorySegmentName="seg_0" id="212F7177-B94F-B36A-12F6-111630170EAF">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>9C3FA86D-8C28-CF76-3C64-2AAADB94B52D</importedID>
+<rule><![CDATA[monto_premios >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="jugador_anio_ck" directorySegmentName="seg_0" id="405BCA81-01E6-F2EB-810A-6CD71D2E5D53">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>04D3AB03-DEED-BEEB-54B4-AA46FBE98ABF</importedID>
+<rule><![CDATA[anio_fin_amateur BETWEEN 1900 AND 2100]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

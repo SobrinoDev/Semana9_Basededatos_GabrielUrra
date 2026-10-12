@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="95B48E03-654D-1FCC-1270-663E2407C264" containerWithKeyObject="742DD759-E98C-79C4-AA91-3C491CD6AF44" localFKIndex="EFF823A4-69E5-B23B-2F47-2C8AC315E5E8" name="trabajador_nacion_fk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>7B947240-E7E2-1309-0A16-8F3DFB3F14B1</importedID>
+<referredTableLongName>nacionalidad</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13BF6568-0515-3E51-2DF3-1F7528126BFD</referredTableID>
+<keyObject>03BF2DF8-0CFD-E056-D0E4-DCD0FD609684</keyObject>
+<referredKeyID>03BF2DF8-0CFD-E056-D0E4-DCD0FD609684</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

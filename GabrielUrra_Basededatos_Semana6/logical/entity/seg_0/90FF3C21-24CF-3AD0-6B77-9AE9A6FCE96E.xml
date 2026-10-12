@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90FF3C21-24CF-3AD0-6B77-9AE9A6FCE96E" name="jugador">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:21:35 UTC</createdTime>
+<generatorID>85F65F21-ED75-BAE3-97F1-7FE0683FDAC0</generatorID>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<engineerTo>
+<item key="6E8384FB-71AB-C396-9D39-CF4FF29BB589" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro inscripcion" id="B7E84F17-854C-2F06-A447-0DB343E0BF65">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:21:35 UTC</createdTime>
+<generatorID>C447E995-8653-3F7B-A35A-A5B99A3B0D58</generatorID>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<engineerTo>
+<item key="6E8384FB-71AB-C396-9D39-CF4FF29BB589" value="true"/>
+</engineerTo>
+<referedAttribute>341AF9C3-D243-2FDD-490C-7DCD732F4E08</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96B0BA43-744F-8A5F-EAF5-D971DE65447A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puesto" id="CEE81D5C-435C-2F77-1155-49A475104104">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:21:35 UTC</createdTime>
+<generatorID>022AFB36-6702-5B62-4C91-987EF78CB921</generatorID>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<engineerTo>
+<item key="6E8384FB-71AB-C396-9D39-CF4FF29BB589" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>124D817E-CDD5-E569-D5EB-E3EC82C60CF1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto premios" id="EF83AD71-2AC2-D61C-129C-3C57D4A230F2">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:21:35 UTC</createdTime>
+<generatorID>D119D62C-70FA-BAD5-5447-F36F44DB5990</generatorID>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<engineerTo>
+<item key="6E8384FB-71AB-C396-9D39-CF4FF29BB589" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D891CFDA-3B84-F569-AD26-3C2393D5F1D5</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id asociacion" id="D333A062-AE02-F63D-E3AB-3801245A3F44">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:21:35 UTC</createdTime>
+<generatorID>98640B21-0F51-AF60-BB33-D1594BEF17B9</generatorID>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<engineerTo>
+<item key="6E8384FB-71AB-C396-9D39-CF4FF29BB589" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>79494A2A-677F-E806-5F7C-C86F55695ED2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id escuela" id="77B17F11-4C15-1853-50F5-ED485EF12741">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:21:35 UTC</createdTime>
+<generatorID>40EE89FD-DC32-847B-BDC3-278008607E26</generatorID>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<engineerTo>
+<item key="6E8384FB-71AB-C396-9D39-CF4FF29BB589" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EFB89030-9D69-5A5D-BDF5-111CB7164A77</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7F2A45FD-B726-FC63-4925-25D1AF881C35</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio fin amateur" id="F047584F-790E-0F5E-5A8D-796D1C601DCD">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:21:35 UTC</createdTime>
+<generatorID>E7676B95-4C46-28E7-F1CF-3934EC5949D2</generatorID>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<engineerTo>
+<item key="6E8384FB-71AB-C396-9D39-CF4FF29BB589" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DF2CFDAE-9751-45D9-325F-4D6B0B7CCAC6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="052C4287-C2FB-D3D9-8982-FA92DBABF852" name="jugador pk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:21:35 UTC</createdTime>
+<generatorID>57B766B1-FB34-72BF-3E03-51B737E53649</generatorID>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<engineerTo>
+<item key="6E8384FB-71AB-C396-9D39-CF4FF29BB589" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7E84F17-854C-2F06-A447-0DB343E0BF65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

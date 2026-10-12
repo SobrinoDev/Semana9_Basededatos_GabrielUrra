@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DC8CFB4-E1CF-D59C-2D21-4072D59BA158" name="jugador_idioma">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>9C420905-7330-DA80-201F-E17B37A1B45F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_inscripcion" id="18B48E69-E091-71DB-8973-C2E4CDF083E5">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>A6D7311B-F433-4FF6-BF28-124D021EADD7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>96B0BA43-744F-8A5F-EAF5-D971DE65447A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>jugador_idioma_jug_nn</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="1A206B58-B052-9BC0-5330-9519E8D1B343" referredColumn="63404094-E8CC-2211-845D-72DCA3AF35A0"/>
+</associations>
+</Column>
+<Column name="id_idioma" id="D88BA501-458E-DF46-22F9-54063E5F43DB">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>3140FD4E-0C14-0666-B7C7-2934913BE3F5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>79494A2A-677F-E806-5F7C-C86F55695ED2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>jugador_idioma_idi_nn</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="DA57162B-8516-5848-72FC-D7ABA7180E73" referredColumn="5D1D6422-1862-A6B3-FC53-0EDA315991BC"/>
+</associations>
+</Column>
+<Column name="nivel_dominio" id="EDDE50C4-0601-423A-86C2-E2C5596C6A0B">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>18DDB65D-5F75-3BFE-36E9-39876B628ECC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7F2A45FD-B726-FC63-4925-25D1AF881C35</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>jugador_idioma_nivel_nn</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B36E88A-2A14-849E-1DBD-64916339A606" name="jugador_idioma_pk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>1E2164FF-67D3-F964-50AA-84B6EF8A480B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18B48E69-E091-71DB-8973-C2E4CDF083E5"/>
+<colUsage columnID="D88BA501-458E-DF46-22F9-54063E5F43DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6A8DF7E-979C-C802-210C-7C89AFAD35C4" name="jugador_idioma_idi_fk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D88BA501-458E-DF46-22F9-54063E5F43DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F1ACB9C-BA74-C3E9-700B-11813E630BE5" name="jugador_idioma_jug_fk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18B48E69-E091-71DB-8973-C2E4CDF083E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="jugador_idioma_nivel_ck" directorySegmentName="seg_0" id="4C92154E-0D55-799E-DD41-F50E41B736A1">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>A1A1DA39-9B5C-A15B-7FE3-76930CF3C946</importedID>
+<rule><![CDATA[nivel_dominio IN ('Basico','Intermedio','Avanzado','Nativo')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

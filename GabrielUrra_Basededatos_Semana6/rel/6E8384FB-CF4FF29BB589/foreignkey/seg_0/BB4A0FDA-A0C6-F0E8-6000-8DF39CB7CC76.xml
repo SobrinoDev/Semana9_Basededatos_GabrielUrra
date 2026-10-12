@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB4A0FDA-A0C6-F0E8-6000-8DF39CB7CC76" containerWithKeyObject="742DD759-E98C-79C4-AA91-3C491CD6AF44" localFKIndex="6037576D-D0BD-1A9D-9710-285F454042D6" name="trabajador_comuna_fk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>92BB109E-4DB6-E692-2E3C-F1870D256BC8</importedID>
+<referredTableLongName>comuna</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7E7D1C10-69EC-18D0-00C5-F0159D4EFCC9</referredTableID>
+<keyObject>A31CEABE-E1BC-C43F-17D6-70DCC9FF062C</keyObject>
+<referredKeyID>A31CEABE-E1BC-C43F-17D6-70DCC9FF062C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_comuna</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

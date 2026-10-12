@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A206B58-B052-9BC0-5330-9519E8D1B343" containerWithKeyObject="4DC8CFB4-E1CF-D59C-2D21-4072D59BA158" localFKIndex="5F1ACB9C-BA74-C3E9-700B-11813E630BE5" name="jugador_idioma_jug_fk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>8D55DB1A-6937-C4AD-7E9F-790AA45895E4</importedID>
+<referredTableLongName>jugador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85F65F21-ED75-BAE3-97F1-7FE0683FDAC0</referredTableID>
+<keyObject>57B766B1-FB34-72BF-3E03-51B737E53649</keyObject>
+<referredKeyID>57B766B1-FB34-72BF-3E03-51B737E53649</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nro_inscripcion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

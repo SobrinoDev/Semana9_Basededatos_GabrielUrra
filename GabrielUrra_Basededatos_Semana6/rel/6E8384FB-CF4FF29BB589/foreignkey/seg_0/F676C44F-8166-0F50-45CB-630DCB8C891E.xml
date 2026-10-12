@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F676C44F-8166-0F50-45CB-630DCB8C891E" containerWithKeyObject="E330827E-107E-2A59-D0D2-CB635811B4B6" localFKIndex="8E6D3D4E-A9AA-B07D-56EF-598A51C9933B" name="historial_club_jug_fk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>3B2A44CC-9BA1-1D5F-95A6-FF281FACB1EB</importedID>
+<referredTableLongName>jugador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85F65F21-ED75-BAE3-97F1-7FE0683FDAC0</referredTableID>
+<keyObject>57B766B1-FB34-72BF-3E03-51B737E53649</keyObject>
+<referredKeyID>57B766B1-FB34-72BF-3E03-51B737E53649</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nro_inscripcion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

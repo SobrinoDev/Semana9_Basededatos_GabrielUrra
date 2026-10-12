@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="09D0BE73-695A-1D86-D119-966FCE835224" containerWithKeyObject="67CCB722-0EE2-A248-05FC-C40E3B933C77" localFKIndex="6185414E-E22B-7337-0837-93D35A82A68D" name="personal_planta_trab_fk">
+<sourceDDLFile>PRY2204_EFT_S9_Script.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:20:47 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<importedID>4147EB5D-3E70-7FA9-BCCB-688C53EEBC0E</importedID>
+<referredTableLongName>trabajador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>742DD759-E98C-79C4-AA91-3C491CD6AF44</referredTableID>
+<keyObject>9D5A3537-4031-9665-C6F4-5F4E1E94801E</keyObject>
+<referredKeyID>9D5A3537-4031-9665-C6F4-5F4E1E94801E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nro_inscripcion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

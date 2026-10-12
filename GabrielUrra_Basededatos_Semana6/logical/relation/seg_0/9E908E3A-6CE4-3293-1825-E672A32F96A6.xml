@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="personal_planta_trab_fk" directorySegmentName="seg_0" id="9E908E3A-6CE4-3293-1825-E672A32F96A6">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:21:35 UTC</createdTime>
+<generatorID>09D0BE73-695A-1D86-D119-966FCE835224</generatorID>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<engineerTo>
+<item key="6E8384FB-71AB-C396-9D39-CF4FF29BB589" value="true"/>
+</engineerTo>
+<sourcePk>A7E17C43-BECA-1A70-3467-401DA249B8FE</sourcePk>
+<dominantRole>890C1B0E-1BFC-8EF1-50A8-E68746371AB1</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>890C1B0E-1BFC-8EF1-50A8-E68746371AB1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E2EC5296-BC41-4F64-6DFF-05EFBFBBA2B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

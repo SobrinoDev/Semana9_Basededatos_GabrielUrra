@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="6E8384FB-71AB-C396-9D39-CF4FF29BB589" mainViewID="71627E09-2AE3-DD40-F3BB-6CC1292429A6">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-12 00:19:39 UTC</createdTime>
+<ownerDesignName>GabrielUrra_Basededatos_Semana6</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>PRY2204_EFT_S9_Script.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop\Base de datos\Semana 9</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>
