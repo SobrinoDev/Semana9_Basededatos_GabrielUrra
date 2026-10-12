@@ -42,7 +42,8 @@ CREATE TABLE asociacion (
   fecha_creacion     DATE          CONSTRAINT asociacion_fecha_nn NOT NULL,
   tipo_asociacion    CHAR(1)       DEFAULT 'P' CONSTRAINT asociacion_tipo_nn NOT NULL,
   CONSTRAINT asociacion_fecha_ck CHECK (fecha_creacion >= DATE '1980-12-31'),
-  CONSTRAINT asociacion_tipo_ck  CHECK (tipo_asociacion IN ('P','A'))  
+  CONSTRAINT asociacion_tipo_ck  CHECK (tipo_asociacion IN ('P','A'))
+);
 
 CREATE TABLE club_futbol (
   id_club          NUMBER(4)     DEFAULT seq_club_futbol.NEXTVAL CONSTRAINT club_futbol_pk PRIMARY KEY,
